@@ -4,6 +4,7 @@
 
 img {
   width: 100%;
+  border-radius: 5px;
 }
 .hero-image {
   background-image: url(https://decider.com/wp-content/uploads/2022/10/20thCenturyGirl.jpg?quality=75&strip=all);  
@@ -26,11 +27,54 @@ img {
 .two-column {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 50px;
+  gap: 40px;
   width: 80%;
   margin: auto;
   margin-top: 30px;
 }
+
+.two-column-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .info{
   font-size: 1.1em;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: rgba(147, 121, 82, 0.778);
+  height: 70%;
+}
+
+.card-text {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.text{
+  text-align: right;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.heading {
+  text-align: left;
+  margin-left: 10%;
 }
