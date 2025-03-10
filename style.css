@@ -21,7 +21,7 @@ img {
   text-align: center;
   width: 100%;
   top: 120px;
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .two-column {
@@ -58,12 +58,13 @@ img {
 
 .card {
   background-color: rgba(147, 121, 82, 0.778);
-  height: 70%;
+  height: 9vw;
 }
 
 .card-text {
   text-align: center;
   color: whitesmoke;
+  font-size: 1.3vw;
 }
 
 .text{
@@ -72,9 +73,17 @@ img {
 
 .paragraph {
   text-align: justify;
+  font-size: 1.3vw;
 }
 
 .heading {
   text-align: left;
   margin-left: 10%;
+  font-size: 3vw;
+}
+p{
+  font-size: 1.3vw;
+}
+h1 {
+  font-size: 3vw;
 }
