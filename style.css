@@ -48,7 +48,7 @@ img {
 .three-column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 100px;
+  gap: 50px;
   width: 80%;
   margin: auto;
   margin-top: 30px;
@@ -57,13 +57,13 @@ img {
 
 .card {
   background-color: #937952c6;
-  height: 4.05vw;
+  height: 3.3vw;
 }
 
 .card-text {
   text-align: center;
   color: whitesmoke;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 
 .text{
