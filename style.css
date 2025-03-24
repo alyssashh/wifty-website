@@ -103,12 +103,17 @@ h1 {
   transition: .5s ease;
 }
 
-.navbar {
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: #614836;
+  margin-bottom: 1vw;
   overflow: hidden;
+  padding: none;
 }
 
-.navbar a {
+nav a {
   float: left;
   color: #ffff;
   text-align: center;
@@ -117,17 +122,17 @@ h1 {
   font-size: 18.67px;
 }
 
-.navbar a:hover {
+nav a:hover {
   background-color: #b99976;
   color: #000;
 }
 
-.navbar a.active {
+nav a.active {
   background-color: #987554;
   color: #000000;
 }
 
-.homebutton {
-  object-fit: cover;
-  width: 3vw;
+.yay {
+  display: inline-block;
+ width: 3vw;
 }
