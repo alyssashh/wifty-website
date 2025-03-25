@@ -9,17 +9,42 @@
 <body>
     <nav>
         <a class="active" href="index.html">
-            <div>
             <img class="yay" src="images/image-removebg-preview (1).png">
-            </div>
         </a>
         <a href="shows.html">Shows</a>
         <a href="#contact">Artists</a>
         <a href="#about">Books</a>
     </nav>
-<section class="two-column-heading">
-    <div>
-    <p>lalala</p>
+<section class="section1-two-column">
+    <p class="intro">lalala</p>
+    <!-- slideshow -->
+     <div class="slideshow-container">
+    <!-- slides -->
+        <div class="mySlides fade">
+            <div class="numbertext">1/3</div>
+            <img src="https://i.pinimg.com/736x/ab/71/76/ab7176939697957fd3eac1c855fd77bb.jpg" style="width:100%">
+        </div>
+
+    <div class="mySlides fade">
+            <div class="numbertext">2/3</div>
+            <img src="https://i.pinimg.com/736x/ef/f6/56/eff6561d3987ea3ebda670a2f1c61e78.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides fade">
+            <div class="numbertext">3/3</div>
+            <img src="https://i.pinimg.com/736x/ef/f6/56/eff6561d3987ea3ebda670a2f1c61e78.jpg" style="width:100%">
+     </div>
+     <!-- next and prev button -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <br>
+
+    <!-- dots -->
+<div style="text-align:center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 </section>
 </body>
