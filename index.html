@@ -18,33 +18,38 @@
 <section class="section1-two-column">
     <p class="intro">lalala</p>
     <!-- slideshow -->
-     <div class="slideshow-container">
-    <!-- slides -->
-        <div class="mySlides fade">
-            <div class="numbertext">1/3</div>
-            <img src="https://i.pinimg.com/736x/ab/71/76/ab7176939697957fd3eac1c855fd77bb.jpg" style="width:100%">
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="https://decider.com/wp-content/uploads/2022/10/20thCenturyGirl.jpg?quality=75&strip=all">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
         </div>
-
-    <div class="mySlides fade">
-            <div class="numbertext">2/3</div>
-            <img src="https://i.pinimg.com/736x/ef/f6/56/eff6561d3987ea3ebda670a2f1c61e78.jpg" style="width:100%">
-     </div>
-
-     <div class="mySlides fade">
-            <div class="numbertext">3/3</div>
-            <img src="https://i.pinimg.com/736x/ef/f6/56/eff6561d3987ea3ebda670a2f1c61e78.jpg" style="width:100%">
-     </div>
-     <!-- next and prev button -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
-
-    <!-- dots -->
-<div style="text-align:center;">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 </section>
 </body>
