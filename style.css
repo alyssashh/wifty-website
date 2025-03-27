@@ -105,20 +105,28 @@ h1 {
 
 nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   background-color: #614836;
   margin-bottom: 1vw;
-  overflow: hidden;
+  padding: 0;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
 }
 
 nav a {
-  float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   color: #ffff;
   text-align: center;
-  padding: 15px 30px;
   text-decoration: none;
-  font-size: 18.67px;
+  font-size: 1.8vw;
+  height: 4vw;
+  width: 10vw;
+  padding: 0.4vw 0.8vw;
 }
 
 nav a:hover {
