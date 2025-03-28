@@ -103,6 +103,7 @@ h1 {
   transition: .5s ease;
 }
 
+/* nav bar */
 nav {
   display: flex;
   align-items: center;
@@ -111,6 +112,7 @@ nav {
   padding: 0;
 }
 
+/* ig u have to add this?? */
 .nav-container{
   display: flex;
   align-items: center;
@@ -118,20 +120,22 @@ nav {
 
 nav a {
   justify-content: center;
+  background-color: #b99976;
   align-items: center;
   display: flex;
-  color: #ffff;
+  color: #000;
   text-align: center;
   text-decoration: none;
-  font-size: 1.8vw;
-  height: 4vw;
-  width: 10vw;
+  font-size: 1.5vw;
+  height: 3vw;
+  width: 9vw;
+  /* height and width is where u change stuff */
   padding: 0.4vw 0.8vw;
 }
 
 nav a:hover {
-  background-color: #b99976;
-  color: #000;
+  background-color: #614836;
+  color: #fff;
 }
 
 nav a.active {
@@ -186,8 +190,7 @@ nav a.active {
 
 .carousel-item img {
   display: block;
-  height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .carousel-control {
