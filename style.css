@@ -153,15 +153,15 @@ nav a.active {
   grid-template-columns: 2fr 1fr;
   gap: 30px;
   width: 100%;
-  height: 30vw;
+  height: 25vw;
   margin: auto;
-  background-color: #6e5f47;
+  background-color: #dfd6bb;
 }
 
 /* carousel */
 .carousel {
   position: relative;
-  margin-top: 6.5vw;
+  margin-top: 2.5vw;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -262,4 +262,34 @@ nav a.active {
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
+}
+
+.titlepage{
+  font-size: 2.5vw;
+  margin-left: 5.5vw;
+  margin-top: 2vw;
+}
+
+.introduction {
+  font-size: 1.1svw;
+  margin-left: 5.5vw;
+  margin-top: -0.5vw;
+}
+
+.section2-three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: auto;
+  margin-top: 1vw;
+  margin-bottom: 80px;
+  background-color: #dfd6bb;
+  width: 100%;
+  height: 25vw;
+}
+
+.file1{
+  margin-left: 5vw;
+  width: 25vw;
+  margin-top: 2vw;
 }
