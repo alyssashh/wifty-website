@@ -7,7 +7,7 @@ img {
 }
 .hero-image {
   background-image: url(https://decider.com/wp-content/uploads/2022/10/20thCenturyGirl.jpg?quality=75&strip=all);  
-  height: 359px;
+  height: 20vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@ img {
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 120px;
+  top: 5vw;
   font-size: 3vw;
 }
 
