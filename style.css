@@ -299,3 +299,12 @@ nav a.active {
  margin-left: 6vw;
  font-size: 0.9vw;
 }
+
+.hero-image2 {
+  background-image: url(images/photo\ 4.jpg);  
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
