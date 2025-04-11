@@ -301,10 +301,116 @@ nav a.active {
 }
 
 .hero-image2 {
-  background-image: url(images/photo\ 4.jpg);  
+  background-image: url(images/try\ 3.jpg);  
   height: 20vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* carousel 2*/
+.carousel2 {
+  position: relative;
+  margin-top: 2.5vw;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 40vw;
+  margin-right: 10vw;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-control {
+  background: #b7b7b7;
+  opacity: 80%;
+  border-radius: 50%;
+  color: #000;
+  cursor: pointer;
+  line-height: 2vw;
+  display: none;
+  font-size: 2vw;
+  height:  2.5vw;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 2.5vw;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: #b99976;
+  color: #000;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 2.5vw;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
 }
