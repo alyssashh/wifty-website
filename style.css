@@ -301,7 +301,11 @@ nav a.active {
 }
 
 .hero-image2 {
+<<<<<<< HEAD
   background-image: url(images/try\ 3.jpg);  
+=======
+  background-image: url(https://cdn.shopify.com/s/files/1/2420/2037/files/Mark_1st_Album_-_The_Firstfruit_Fruit_Juice_Ver._Info_Strip.webp?v=1743466878);  
+>>>>>>> 14b25f791e0bb9b3422a20f555bc1e8a46b3119f
   height: 20vw;
   background-position: center;
   background-repeat: no-repeat;
